@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'spiraxregular';
-    src: url('spirax-regular-webfont.woff2') format('woff2'),
-         url('spirax-regular-webfont.woff') format('woff');
+    src: font_url('spirax-regular-webfont.woff2') format('woff2'),
+         font_url('spirax-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
