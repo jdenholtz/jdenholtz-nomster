@@ -1,7 +1,17 @@
-<% @places.each do |place| %>
-  <div class="booyah-box col-10 offset-1">
-    <h1><%= place.name %></h1>
-    <i><%= place.address %></i><br /><br />
-    <p><%= place.description %></p><br />
-  </div>
-<% end %>
+<div class="col-10 offset-1">
+  <% @places.each do |place| %>
+    <div class="booyah-box">
+      <h1><%= place.name %></h1>
+      <i><%= place.address %></i><br /><br />
+      <p><%= place.description %></p><br />
+    </div>
+  <% end %>
+
+  <%#= will_paginate @places %>
+  <div class="apple_pagination">
+    <div class="page_info">
+      <%= page_entries_info @places %>
+    </div>
+    <%= will_paginate @places, :container => false %>
+    </div>
+</div>
