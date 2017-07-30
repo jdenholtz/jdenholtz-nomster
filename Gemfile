@@ -62,4 +62,6 @@ end
 
 gem 'will_paginate', '>= 3.1'
 
-gem "font-awesome-rails"
+gem 'font-awesome-rails'
+
+gem 'devise'
