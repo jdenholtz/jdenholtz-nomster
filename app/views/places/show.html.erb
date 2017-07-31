@@ -31,24 +31,28 @@
     <div id="map"></div>
   <% end %>
 
-  <br />
-  <h1>Photos</h1>
-  <div class="center">
-    <% @place.photos.each do |photo| %>
-      <div class="user-photo">
-        <%= image_tag photo.picture, class: 'img-fluid, place-photo' %>
+  
+  <% if @place.photos.present? %>
+    <br />
+    <h1>Photos</h1>
+    <div class="center">
+      <% @place.photos.each do |photo| %>
+        <div class="user-photo">
+          <%= image_tag photo.picture, class: 'img-fluid, place-photo' %>
+          <br />
+        </div>
+        <div class="caption">
+          <%= photo.caption %>
+        </div>
         <br />
-      </div>
-      <div class="caption">
-        <%= photo.caption %>
-      </div>
-      <br />
-    <% end %>
-  </div>
-  <br />
+      <% end %>
+    </div>
+    <br />
+    <br />
+  <% end %>  
   <div class="clear"></div>
   
-  <br />
+  
 
   <% if current_user && current_user == @place.user %>
     <div>
