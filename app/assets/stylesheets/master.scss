@@ -1,7 +1,6 @@
 @import "bootstrap";
 @import "font-awesome";
 
-
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -15,6 +14,7 @@
 }
 
 h1, h2, h3, h4, h5, h6, {
+  font-family: 'Aclonica', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -97,6 +97,24 @@ blockquote p {
 .carousel-item-prev {
   display: block;
 }
+
+.place-photo{
+  max-height: 550px;
+  width: auto;
+  box-shadow: 2px 2px 6px #2a2a2a;
+}
+
+
+.caption{
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  
+}
+
+.edit-destroy{
+}
+
 
 
 .apple_pagination {
