@@ -92,6 +92,12 @@ blockquote p {
   box-shadow: 0px 3px 8px #2a2a2a;
 }
 
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+
 
 .apple_pagination {
   border: 1px solid #e5e5e5;
