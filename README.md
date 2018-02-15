@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Introduction
 
-Things you may want to cover:
+* A Yelp clone that integrates with the Google Maps API and includes features like user comments, star ratings, image uploading, and user authentication.
 
-* Ruby version
+Framework
 
-* System dependencies
+* Ruby on Rails app with PostgreSQL.
 
-* Configuration
+* AWS S3 and carrierwave for consistent image storage/retrieval.
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
